@@ -1,0 +1,157 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-color: black;
+}
+h1{
+    margin:10px 0;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 99%;
+    background-color: rgb(8, 8, 10);
+    height:5vh;
+    font-size: 3vh;
+    padding: 10px 0;
+
+    position: fixed;
+    top: 0;
+    transition: top 0.2s;
+    border-radius: 10px;
+}
+
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px;
+    
+   
+}
+nav a:hover {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: darkgray;
+}
+
+
+
+.body {
+    margin: 0 auto;
+    margin-top: 5px;
+    display: grid;
+    grid-template-rows: 1;
+    width: 90%;
+    gap: 10px;
+    
+}
+
+.ucl,.uel,.premier,.laliga,.bundesliga {
+    height: 30vh;
+    background-color: lightblue;
+    padding: 0 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.ucl:hover,.uel:hover,.premier:hover,.laliga:hover,.bundesliga:hover {
+    height: 30vh;
+    background-color: lightblue;
+    padding: 0 10px;
+    border-radius: 15px;
+    display: flexbox;
+    box-shadow: 10px 10px 5px rgb(164, 125, 125);
+    
+}
+
+
+.learn {
+   
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: wheat;
+    position: relative;
+    margin-top: 23vh;
+    border-radius: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.learn:hover {
+    
+    background-color:lightblue;
+    color: black;
+    
+
+
+}
+
+.footer {
+    
+    
+    
+    
+    
+    
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 99%;
+    background-color: rgb(8, 8, 10);
+    height:60px;
+    font-size: 3vh;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    transition: bottom 0.2s;
+    border-radius: 10px;
+}
+
+
+/* champions League */
+
+.ChampionsLeague {
+    background-color: lightblue;
+    padding: 0 10px;
+    border-radius: 15px;
+    display: block;
+}
+
+.infobar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.learncl {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: wheat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s ease;
+
+}
+
+.learncl:hover {
+    background-color:lightblue;
+    color: black;
+}
