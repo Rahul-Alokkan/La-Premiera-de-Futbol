@@ -151,6 +151,27 @@ nav a:hover {
     color: black;
 }
 
+.footer_cl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    position: fixed;
+    
+    width: 99%;
+    background-color: rgb(8, 8, 10);
+    height:60px;
+    font-size: 3vh;
+    
+    
+    
+    transition: bottom 0.2s;
+    border-radius: 10px; 
+
+    
+}
+
 
 /* About us  */
 
