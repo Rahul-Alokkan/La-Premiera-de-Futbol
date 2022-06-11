@@ -8,3 +8,12 @@ La Premiera de Futbol is a web based application that help the user understand t
 |----------|-----------|
 | HTML     | PHP      |
 | CSS     | Java Script |
+
+
+### Updates Required
+- Adding a proper scalling feature for differet size
+- Creating a proper database for the players and teams for varuiys competition. 
+- Addition of animation and a proper transition among the pages of the website. 
+- Rewriting the competition description. 
+
+
